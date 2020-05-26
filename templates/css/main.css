@@ -1,0 +1,722 @@
+/* CSS Document */
+
+#main
+{
+	display: block;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	position: absolute;
+	left:50%;
+	width: 950px;
+	margin-left: -500px;
+	background-color: white;
+}
+
+#footer
+{
+	float:left;
+	display: block;
+	padding-top:20px;
+	width: 950px;
+}
+
+#header
+{
+	display: block;
+	padding-top:10px;
+	padding-bottom:10px;
+	width: 950px;
+}
+
+#content
+{
+	display: block;
+	border:0px;
+}
+
+#right
+{
+position:relative;
+float:right;
+display: block;
+ width: 200px;
+}
+
+#left
+{
+position:relative;
+float:left;
+display: block;
+width: 200px;
+}
+
+#center
+{
+position:relative;
+display: block;
+float:left;
+ width: 510px;
+ padding-left: 20px;
+ padding-right: 20px;
+ border: 0px;
+}
+
+#centerpage
+{
+position:relative;
+display: block;
+float:left;
+margin-left:20px;
+width: 720px;
+}
+
+#centerpage h2
+{
+color:#333333;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-size: 20px;
+font-weight: bold;	
+text-align: left;
+margin: 0px;
+margin-top: 5px;
+border: 0px;
+
+}
+
+#centerpage h3
+{
+color:#666666;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-size: 14px;
+font-weight: bold;	
+text-align: left;
+font-style: italic;
+margin: 0px;
+margin-top: 5px;
+border: 0px;
+}
+
+#centerpage p
+{
+color:#666666;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-size: 12px;
+font-weight: normal;	
+text-align: left;
+border: 0px;
+padding: 0px;
+}
+
+#upper
+{
+position:relative;
+display: block;
+float:left;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 26px;
+color:#006600;
+height: 33px;
+width: 930px;
+padding-left: 10px;
+padding-rigth: 10px;
+margin-bottom: 20px;
+border-bottom: 1px solid #006600;
+}
+
+#upper h1
+{
+display:block;
+position: relative;
+float: left;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 26px;
+color:#006600;
+text-align: left;
+clear: none;
+}
+
+.subupper
+{
+color:#333333;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+font-size: 12px;
+font-weight: normal;
+width: 110px;
+height: 40px;
+position:relative;
+float:right;
+text-align: center;
+}
+
+.rasporka
+{
+float: left;
+width: 110px;
+height: 13px;
+position: relative;
+}
+.mark_subupper
+{
+color:#333333;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: normal;
+width: 110px;
+height: 33px;
+font-size: 12px;
+position:relative;
+float:right;
+background-image: url(../images/subupper.jpg);
+background-position: bottom;
+background-repeat: no-repeat;
+text-align: center;
+}
+
+a.footerhref:link
+{
+	color:#009900;
+	text-decoration:none;
+}
+
+a.footerhref:visited
+{
+	color:#009900;
+	text-decoration:none;
+}
+
+a.footerhref:hover
+{
+	color:#009900;
+	text-decoration:underline;
+}
+
+
+.footerline
+{
+ display:block;
+ width: 950px;
+ border-top: #999999 1px solid;
+ color:#666666;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+ font-size:12px;
+ text-align:center;
+ padding-top:3px;
+ padding-bottom:15px;
+}
+
+.footerup
+{
+ display:block;
+ width: 950px;
+ color:#666666;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+ font-size:12px;
+ text-align:center;
+ vertical-align:top;
+ letter-spacing:1px;
+}
+
+
+.centerup
+{
+ display:block;
+ width: 510px;
+ height: 6px;
+ font-size:0px;
+ background-image:url(../images/diz/arccenterup.png);
+ background-repeat:no-repeat;
+}
+
+.centercenter
+{
+ display:block;
+ width: 508px;
+ padding-bottom: 15px;
+ border-left: #333333 1px solid;
+ border-right: #333333 1px solid;
+}
+
+h1
+{
+font-size:28px;
+text-align:right;
+margin-top:0px;
+margin-bottom:0px;
+margin-left:5px;
+color:#006600;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight:bold;
+padding-right: 20px;
+}
+
+h2
+{
+font-size:16px;
+text-align:left;
+margin-left:5px;
+margin-right:5px;
+color:#333333;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight:bold;
+padding-bottom: 5px;
+border-bottom:  #333333 1px solid;
+}
+
+h3
+{
+font-size:14px;
+text-align:left;
+margin-left:5px;
+margin-right:5px;
+color:#111111;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+}
+
+p
+{
+	text-indent:15px;
+	 font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:12px;
+	color:#333333;
+	margin-top:5px;
+	margin-bottom:0px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+img
+{
+	text-align:center;
+	margin: 0px;
+}
+
+
+.centerdown
+{
+ display:block;
+ width: 510px;
+ height: 7px;
+ background-image:url(../images/diz/arccenterdown.png);
+ background-repeat:no-repeat;
+}
+
+.main_center
+{
+ display:block;
+ background-image:url(../images/main/main_bg.jpg);
+}
+
+.catsup
+{
+ display:block;
+ width: 200px;
+ height: 6px;
+ font-size:0px;
+ background-image:url(../images/diz/leftcatsarcup.png);
+ background-repeat:no-repeat;
+}
+
+.menuup
+{
+ display:block;
+ width: 188px;
+background-color: #c1d8c1;
+ height: 26px;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+ padding-top:8px;
+ padding-left:20px;
+ font-weight:bold;
+ font-size:14px;
+ background-image:url(../images/menu_up.jpg);
+ background-repeat:no-repeat;
+}
+
+.menucenterup
+{
+ display:block;
+ background-color: #f2f9f2;
+font-family: 'Lucida Grande', Arial, Helvetica;
+ padding-top:7px;
+ padding-left:20px;
+ width: 188px;
+ height: 21px;
+ font-size:12px;
+ color: #666666;
+ background-image:url(../images/menu_center_up.jpg);
+ background-repeat:no-repeat;
+}
+
+.menucentercell
+{
+ display:block;
+ width: 188px;
+ background-color: #f2f9f2;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+ padding-top:7px;
+ padding-left:20px;
+ height: 20px;
+ font-size:12px;
+color: #666666;
+ background-image:url(../images/menu_center_cell.jpg);
+ background-repeat:no-repeat;
+}
+
+.menudown
+{
+ display:block;
+ width: 208px;
+ background-color: #f2f9f2;
+ height: 20px;
+ font-size:0px;
+  color: #666666;
+ background-image:url(../images/menu_down.jpg);
+ background-repeat:no-repeat;
+}
+
+a.uppermenu:link
+{
+	color:#333333;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: normal;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+a.uppermenu:visited
+{
+	color:#333333;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: normal;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+a.uppermenu:hover
+{
+	color:#669966;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: normal;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+
+a.menu:link
+{
+	 font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:12px;
+	 color: #666666;
+	text-decoration:none;
+}
+
+a.menu:visited
+{
+ font-family: 'Lucida Grande', Arial, Helvetica;
+ font-size:12px;
+	 color: #666666;
+	text-decoration:none;
+}
+
+a.menu:hover
+{
+ font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:12px;
+	 color: #669966;
+	text-decoration:none;
+}
+
+.catsimg
+{
+	padding-top: 13px;
+}
+
+a.catstext:link
+{
+ font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:14px;
+	font-weight:bolder;
+	color:#006600;
+	text-decoration:none;
+}
+
+a.catstext:visited
+{
+ font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:14px;
+	font-weight:bolder;
+	color:#006600;
+	text-decoration:none;
+}
+
+a.catstext:hover
+{
+ font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:14px;
+	font-weight:bolder;
+	color:#003300;
+	text-decoration:none;
+}
+
+.catscenter
+{
+	display:block;
+ 	width: 198px;
+	border-left: #666666 1px solid;
+  	border-right: #666666 1px solid;
+	text-align:center;
+	margin: 0px;
+	background-image:url(../images/diz/leftbg.jpg);
+	background-repeat:repeat;
+}
+
+.catsdown
+{
+ display:block;
+ width: 200px;
+ height: 7px;
+ background-image:url(../images/diz/leftcatsarcdown.png);
+ background-repeat:no-repeat;
+}
+
+#mainleft
+{
+	position: relative;
+	float:left;
+	width:400px;
+	height:300px;
+}
+
+#mainright
+{
+	position: relative;
+	float:left;
+	width:510px;
+	margin-left:20px;
+}
+
+#mainright p
+{
+
+	font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:14px;
+	color:#333333;
+	margin-top:10px;
+	margin-bottom:0px;
+	padding-left:0px;
+	padding-right:10px;
+}
+
+#news
+{
+	margin-top:20px;
+	position: relative;
+	float:left;
+	width:950px;
+	background-color: #FFFFFF;
+	background-repeat:no-repeat;
+	background-position: center;
+	
+}
+
+#newsleft
+{
+	text-align: left;
+	position:relative;
+	display: table-cell;
+	vertical-align: middle;
+	float:left;
+	width: 150px;
+}
+
+#newsleft p
+{
+	font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:18px;
+	font-weight: bold;
+	color:#333333;
+}
+
+#newsright
+{
+	text-align: left;
+	position:relative;
+	display: block;
+	float:left;
+	width: 800px;
+}
+
+.newsone
+{
+	display:block;
+	position:relative;
+	clear:right;
+	float:left;
+	margin-bottom: 5px;
+
+}
+
+.newsdate
+{
+	color:#336633;
+	font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:16px;
+	font-weight: bold;
+	height:16px;
+	width:150px;
+	position:relative;
+	float:left;
+}
+
+.newstext
+{
+	font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size:14px;
+	width:640px;
+	position:relative;
+	float:left;
+	clear: right;
+}
+
+#mainupper
+{
+position:relative;
+display: block;
+float:left;
+ font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 33px;
+color:#006600;
+height: 33px;
+width: 930px;
+padding-left: 6px;
+padding-rigth: 10px;
+/*bmargin-bottom: 10px;*/
+/*border-bottom: 1px solid #006600;*/
+}
+
+#mainupper h1
+{
+display:block;
+position: relative;
+float: left;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 26px;
+color:#006600;
+text-align: left;
+clear: none;
+}
+
+#maincenter
+{
+position:relative;
+display: block;
+float:left;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 33px;
+color:#006600;
+background-color: #eeeeee;
+background-image: url(../images/main/main.jpg);
+height: 250px;
+width: 950px;
+}
+
+#maincenter h1
+{
+display:block;
+position: relative;
+float: left;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 30px;
+color:#006600;
+padding-left: 10px;
+padding-top: 10px;
+text-align: left;
+clear: none;	
+}
+
+#newscenter
+{
+position:relative;
+display: block;
+float:left;
+font-family: 'Lucida Grande', Arial, Helvetica;
+font-weight: bold;
+font-size: 33px;
+margin-top:10px;
+color:#006600;
+background-color: #333399;
+background-image: url(../images/main/osen2008bg.jpg);
+height: 80px;
+width: 949px;
+}
+
+#newscenterright
+{
+position:relative;
+display: block;
+float:right;
+padding-top:10px;
+padding-left:10px;
+color:#cccc66;
+height: 70px;
+width: 250px;
+}
+
+#newscenterleft
+{
+position:relative;
+display: block;
+float:right;
+font-weight: bold;
+padding-top:10px;
+padding-left:10px;
+color:#ffff00;
+height: 70px;
+width: 400px;
+}
+
+#newscenterleft h2
+{
+text-align:center;
+font-family: 'Lucida Grande', Arial, Helvetica;
+padding: 0px;
+margin: 0px;
+ font-size: 27px;
+ color:#ffff00;
+ border: 0;
+}
+
+#newscenterleft h3
+{
+	text-align:center;
+	font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	color:#ffff00;
+	border: 0;
+}
+
+
+#newscenterright h3
+{
+	text-align:center;
+	font-family: 'Lucida Grande', Arial, Helvetica;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+	/*color:#cccc66;*/
+	color:black;
+	border: 0;
+}
+
+img.imgcenter
+{
+display:block;
+margin-left: auto;
+margin-right: auto;		
+}

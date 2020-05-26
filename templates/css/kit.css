@@ -1,0 +1,65 @@
+#smallnav
+{
+	height:30px;
+	width:940px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:10px;
+	text-align:center;
+	background-color:#F3F3F3;
+	background-image:url(../images/diz/bgkit.jpg);
+}
+
+a.smallnavlink:link
+{
+	font-family:Arial;
+	font-size:14px;
+	color:#666666;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration:none;
+}
+
+a.smallnavlink:visited
+{
+	font-family:Arial;
+	font-size:14px;
+	color:#666666;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration:none;
+}
+
+a.smallnavlink:hover
+{
+	font-family:Arial;
+	font-size:14px;
+	color:#333333;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration:none;
+}
+
+.kitshow
+{
+	width: 212px;
+	height: 202px;
+	background-color:#F3F3F3;
+	margin: 10px;
+	float:left;
+	background-image:url(../images/diz/bgkitcude.jpg);
+}
+
+.kitshowimg
+{
+	border: #333333 1px solid;
+	margin: 5px; 
+}
+
+.kitshowlabel
+{
+	font-family:Arial;
+	font-size:12px;
+	margin-left: 8px;
+	font-weight:bold;
+}

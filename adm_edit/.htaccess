@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected area, please login"
+AuthUserFile /Applications/MAMP/htdocs/adm_edit/apass1
+Require user editor

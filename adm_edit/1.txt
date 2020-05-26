@@ -1,0 +1,3 @@
+AuthType Basic
+AuthName "Protected area, please login"
+Require user editor

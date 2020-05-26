@@ -1,0 +1,47 @@
+<?php
+class SessionCreator
+{
+	var $dbh;
+	var $user;
+	var $u_id;
+	var $ip;
+	var $crypt_pass;
+	var $expiration;
+	var $enter;
+
+	function SessionCreator(&$dbh)
+	{
+		$this->dbh = $dbh;
+		//формируем по таблице в базе все параметры
+	}
+
+	//устанавливает куки и заносит в базу
+	function start()
+	{
+	
+	}
+
+	function prolongation()
+	{
+	
+	}	
+
+	function stop()
+	{
+	
+	}
+
+	//возвращает имя пользователя или null если никто не залогинен
+	function getUser()
+	{
+	
+	}
+
+	function generateRandString()
+	{
+		$token = md5(uniqid(rand(), true));
+		echo $token;
+	}
+
+}
+?>
